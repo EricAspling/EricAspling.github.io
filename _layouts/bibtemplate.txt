@@ -1,9 +1,9 @@
 
 
 {{reference}}
-    {% if entry.abstract %}
+    <!-- {% if entry.abstract %}
     <button class="btn btnId btnPub--abstract" id="b_{{key}}-abstract" style="outline:none;">Abstract</button>
-    {% endif %}
+    {% endif %} -->
 
     <button class="btn btnId btnPub--BibTex" id="b_{{key}}-bibtex" style="outline:none;">BibTeX</button>
     
@@ -15,9 +15,9 @@
     <a href="{{links['sup.pdf']}}"><button class="btn btnId btnPub--supplement" style="outline:none; position:relative;white-space: normal;">Supplement</button></a>
     {% endif %}
 
-    <div class="dropDownBibtex" id="{{key}}-bibtex">
+    <!-- <div class="dropDownBibtex" id="{{key}}-bibtex">
     <pre>{{entry.bibtex}}</pre>
-    </div>
+    </div> -->
     
     <!-- <div class="dropDownAbstract" id="{{key}}-abstract">
     {{entry.abstract}}
